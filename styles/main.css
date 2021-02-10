@@ -1,0 +1,26 @@
+
+body {
+    background-color: #EDEDED;
+    font-family: Courier;
+}
+
+.header-strip {
+    margin: 20px 0px;
+    border-bottom: solid #272727 1px;
+}
+
+.header-main {
+    border-bottom: solid #272727 1px;
+}
+
+.header-title {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #272727;
+}
