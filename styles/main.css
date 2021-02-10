@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 body {
     background-color: #EDEDED;
     font-family: Courier;
+    margin-left: 30px;
 }
 
 .header-strip {
@@ -11,16 +13,44 @@ body {
 
 .header-main {
     border-bottom: solid #272727 1px;
+    
 }
 
 .header-title {
+    font-family: 'Bungee', cursive;
     font-size: 30px;
 }
 
+nav {
+    text-align: right;
+
+}
+
+a.header-title:link { color: #272727; }
+a.header-title:visited { color: #272727; }
+a.header-title:hover { color: deepskyblue;}
+a.header-title:active { color: #272727; }
+
+a.blog:link { color: #272727; }
+a.blog:visited { color: #272727; }
+a.blog:hover { color: orangered; }
+a.blog:active { color: #272727; }
+
+a.about:link { color: #272727; }
+a.about:visited { color: #272727; }
+a.about:hover { color: greenyellow; }
+a.about:active { color: #272727; }
+
+
 a {
     text-decoration: none;
+    color: black;
 }
 
 h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 300px;
     color: #272727;
+    border: solid black 1px;
 }
+
