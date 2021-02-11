@@ -2,28 +2,58 @@
 
 body {
     background-color: #EDEDED;
-    font-family: Courier;
+    font-family: 'Courier New', Courier, monospace;
     margin-left: 30px;
+    margin-right: 30px;
 }
 
 .header-strip {
-    margin: 20px 0px;
+    height: 10px;
+    margin: 0px 0px 5px 0px;
     border-bottom: solid #272727 1px;
 }
 
+.eda {
+    padding: 0px 20px 0px 0px;
+    border: solid black 1px;
+}
+
+.kahikatea {
+    padding: 0px 20px 0px 20px;
+    border: solid 1px #000;
+}
+
+.year {
+    padding: 0px 0px 0px 20px;
+    border: solid black 1px;
+}
+
 .header-main {
-    border-bottom: solid #272727 1px;
     
+    border-bottom: solid #272727 1px;
 }
 
 .header-title {
     font-family: 'Bungee', cursive;
     font-size: 30px;
+    border: solid black 1px;
 }
 
 nav {
-    text-align: right;
+    
+    padding: 0px 0px 0px 20px;
+    border: solid black 1px;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: inline;
+    float: right;
 }
 
 a.header-title:link { color: #272727; }
@@ -49,8 +79,20 @@ a {
 
 h1 {
     font-family: 'Bungee', cursive;
-    font-size: 300px;
+    font-size: 220px;
     color: #272727;
-    border: solid black 1px;
+    text-align: center;
+    margin: 60px auto;
 }
 
+h2 {
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    border: solid black 1px;
+}
