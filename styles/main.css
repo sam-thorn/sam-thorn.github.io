@@ -65,6 +65,10 @@ nav {
     padding: 0px 0px 0px 0px;
 }
 
+.blog-section {
+    text-align: left;
+}
+
 a.header-title:link { color: #272727; }
 a.header-title:visited { color: #272727; }
 a.header-title:hover { color: deepskyblue;}
@@ -80,7 +84,6 @@ a.about:visited { color: #272727; }
 a.about:hover { color: greenyellow; }
 a.about:active { color: #272727; }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -91,7 +94,7 @@ h1 {
     font-size: 220px;
     color: #272727;
     text-align: center;
-    margin: 60px auto;
+    margin: 60px auto 0px auto;
 }
 
 h2 {
@@ -111,4 +114,46 @@ p {
 footer {
     margin-top: 150px;
     padding: 30px 0px 20px 0px;
+}
+
+main {
+    text-align: center;
+}
+
+
+#blog {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;   
+}
+
+#tech {
+    font-size: 160px;
+    color: orangered;
+    /*display: inline-block;*/
+}
+
+#core {
+    font-size: 160px;
+    color: mediumslateblue;
+    /*display: inline-block;*/
+}
+
+#tb1 {
+    font-family: 'Bungee', cursive;
+    font-size: 140px; 
+}
+
+#tb2 {
+    font-family: 'Bungee', cursive;
+    font-size: 140px; 
+}
+
+#cb1 {
+    font-family: 'Bungee', cursive;
+    font-size: 140px; 
+}
+
+#cb2 {
+    font-family: 'Bungee', cursive;
+    font-size: 140px; 
 }
