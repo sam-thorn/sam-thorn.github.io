@@ -25,27 +25,24 @@
             </div>
         </header>
 
-        <main class="blog-section">
-            <section>
-                <p style="font-family: 'Bungee', cursive; font-size: 30px;">Sprint 2 - Tech Blog</p>
-            </section>
-            <section>
-                <p><strong>Display: Block, Inline, and Inline-Block in CSS - What are the Differences?</strong></p>
-            </section>
-            <section>
+        <main>
+            <div id="blog-content">
+                <h1 style="font-family: 'Bungee', cursive; font-size: 30px; padding-top: 20px;">Sprint 2 - Tech Blog</h1>
+                <br>
+                <h2 style="text-align: center;">Display: Block, Inline, and Inline-Block in CSS - What are the Differences?</h2>
+                <br>
+                
                 <p>A web page treats every HTML element as a box, allowing you to quickly create a straightforward structure with common elements such as a header, main section, and a footer. In CSS the display property then allows you to determine how these boxes will be shown.
 
                     Every HTMl element has a default display value. This is why a &lt;div&gt; or a &lt;p&gt; tag takes the full width of available space and each starts on a new line; and why other HTML tags like &lt;span&gt; or &lt;img&gt; display side-by-side. 
 
                     Another way of looking at this is that a &lt;div&gt; or &lt;p&gt; tag is a block-level element and a &lt;span&gt; or &lt;img&gt; is an inline element.
                 </p>
-            <section>
-                    Block and Inline elements have different key characteristics.
-            </section>
-
-            <section>
+                <p>Block and Inline elements have different key characteristics.
+                </p>
                 <p>
                     <strong>Block-level elements:</strong>
+                    <br>
                     <ul>
                         <li>Take the full width of the viewport by default</li>
                         <li>Each element is displayed in a new line</li>
@@ -53,17 +50,15 @@
                         <li>Block-level elements can contain other elements</li>
                     </ul>
                 </p>
-                <p>
-                    For example, as &lt;p&gt; tags are block-level elements, width and height properties can be set:
+                <p>For example, as &lt;p&gt; tags are block-level elements, width and height properties can be set:
                 </p>
-                <img src="../img/sprint2-tech/block-syntax.png" alt="" width="" height=""/>
-                <p>
-                    Even with a width of 100px, unlikely to be the full width of the viewer, the next &lt;p&gt; element will still start with a new line:
+                <br>
+                <img src="../img/sprint2-tech/block-syntax.png" alt="an image of css code" width="300" height=""/>
+                <p>Even with a width of 100px, unlikely to be the full width of the viewer, the next &lt;p&gt; element will still start with a new line:
                 </p>
-
-                <img src="../img/sprint2-tech/block-visual.png" alt="" width="" height=""/>
-            </section>
-            <section>
+                <br>
+                <img src="../img/sprint2-tech/block-visual.png" alt="an image of three red boxes stacked on one another" width="" height="450"/>
+                <br>
                 <p>
                     <strong>Inline elements:</strong>
                     <ul>
@@ -73,20 +68,15 @@
                         <li>Can be a parent element of other inline elements</li>
                     </ul>
                 </p>
-                <p>
-                    We can modify the behaviour of block elements to display inline instead of stacked:
+                <p>We can modify the behaviour of block elements to display inline instead of stacked:
                 </p>
-
-                <img src="../img/sprint2-tech/display-inline-syntax.png" alt="" width="" height=""/>
-
-                <p>
-                    Seeing as the &lt;p&gt; tag now has an inline element it is modified to place &lt;p&gt; elements side-by-side. Width and height properties have no effect any longer.
+                <br>
+                <img src="../img/sprint2-tech/display-inline-syntax.png" alt="an image of css code" width="300" height=""/>
+                <p>Seeing as the &lt;p&gt; tag now has an inline element it is modified to place &lt;p&gt; elements side-by-side. Width and height properties have no effect any longer.
                 </p>
-
-                <img src="../img/sprint2-tech/display-inline-visual.png" alt="" width="" height=""/>
-            </section>
-
-            <section>
+                <br>
+                <img src="../img/sprint2-tech/display-inline-visual.png" alt="an image of three red boxes adjacent to one another" width="400" height=""/>
+                <br>
                 <p>
                     <strong>Display: Inline-block:</strong>
                     <ul>
@@ -95,18 +85,15 @@
                         <li>Elements can display width and height properties</li>
                     </ul>
                 </p>
-                <p>
-                    Display: inline-block is an inline element with width and height properties or we can think of it like a block-level element that doesn’t have to start on a new line.
+                <p>Display: inline-block is an inline element with width and height properties or we can think of it like a block-level element that doesn’t have to start on a new line.
                 </p>
-
-                <img src="../img/sprint2-tech/display-inline-block-syntax.png" alt="" width="" height=""/>
-
-                <p>
-                    These &lt;p&gt; items can now be placed side-by-side and width and height properties can also be set. This allows us a lot more flexibility with our layout design and provides options for the visual appearance of our web page.
+                <br>
+                <img src="../img/sprint2-tech/display-inline-block-syntax.png" alt="an image of css code" width="300" height=""/>
+                <p>These &lt;p&gt; items can now be placed side-by-side and width and height properties can also be set. This allows us a lot more flexibility with our layout design and provides options for the visual appearance of our web page.
                 </p>
-
-                <img src="../img/sprint2-tech/display-inline-block-visual.png" alt="" width="" height=""/>
-            </section>
+                <br>
+                <img src="../img/sprint2-tech/display-inline-block-visual.png" alt="an image of three red boxes adjacent to one another" width="400" height=""/>
+            </div>
         </main>
 
         <footer>
