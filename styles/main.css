@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     background-color: #EDEDED;
@@ -167,5 +168,6 @@ main {
     text-align: initial;
     background-color: white;
     padding: 0px 30px 30px 30px;
+    font-family: 'Montserrat', sans-serif;
     
 }
