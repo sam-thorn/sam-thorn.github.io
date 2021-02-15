@@ -4,6 +4,7 @@
 body {
     background-color: #EDEDED;
     font-family: 'Courier New', Courier, monospace;
+    color: #272727;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -111,6 +112,7 @@ p {
 ul {
     margin-top: 10px;
     padding-inline-start: 20px;
+    line-height: 20px;
 }
 
 footer {
