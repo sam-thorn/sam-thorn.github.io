@@ -106,13 +106,18 @@ h3 {
 
 p {
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 0.92em;
+    line-height: 1.6em;
 }
 
 ul {
     margin-top: 10px;
     padding-inline-start: 20px;
     line-height: 20px;
+}
+
+img {
+    padding: 10px;
 }
 
 footer {
@@ -183,4 +188,9 @@ main {
     padding: 0px 30px 30px 30px;
     font-family: 'Montserrat', sans-serif;
     
+}
+
+#container-buildings {
+    margin: auto;
+    padding: 10px;
 }
