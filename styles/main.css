@@ -1,196 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    background-color: #EDEDED;
-    font-family: 'Courier New', Courier, monospace;
-    color: #272727;
-    margin-left: 30px;
-    margin-right: 30px;
+  background-color: #ededed;
+  font-family: "Courier New", Courier, monospace;
+  color: #272727;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-
 
 * {
-    box-sizing: border box;
-    margin: 0px;
+  box-sizing: border box;
+  margin: 0px;
 }
 
-
 .header-strip {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px 1px 0px;
-    padding-top: 10px;
-    border-bottom: solid #272727 1px;
-    font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 1px 0px;
+  padding-top: 10px;
+  border-bottom: solid #272727 1px;
+  font-weight: normal;
 }
 
 .eda {
-    padding: 0px 20px 0px 0px;
+  padding: 0px 20px 0px 0px;
 }
 
 .kahikatea {
-    padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .year {
-    padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 .header-main {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0px 0px 0px;
-    border-bottom: solid #272727 1px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 0px 0px;
+  border-bottom: solid #272727 1px;
 }
 
 .header-title {
-    font-family: 'Bungee', cursive;
-    font-size: 30px;
+  font-family: "Bungee", cursive;
+  font-size: 30px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 17px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0px 0px 0px;
 }
 
 .nav-1 {
-    padding: 0px 40px 0px 0px;
+  padding: 0px 40px 0px 0px;
 }
 
 .nav-2 {
-    padding: 0px 40px 0px 0px;
+  padding: 0px 40px 0px 0px;
 }
 
 .nav-3 {
-    padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
-a.header-title:link { color: #272727; }
-a.header-title:visited { color: #272727; }
-a.header-title:hover { color: deepskyblue;}
-a.header-title:active { color: #272727; }
+a.header-title:link {
+  color: #272727;
+}
+a.header-title:visited {
+  color: #272727;
+}
+a.header-title:hover {
+  color: deepskyblue;
+}
+a.header-title:active {
+  color: #272727;
+}
 
-a.blog:link { color: #272727; }
-a.blog:visited { color: #272727; }
-a.blog:hover { color: orangered; }
-a.blog:active { color: #272727; }
+a.blog:link {
+  color: #272727;
+}
+a.blog:visited {
+  color: #272727;
+}
+a.blog:hover {
+  color: orangered;
+}
+a.blog:active {
+  color: #272727;
+}
 
-a.about:link { color: #272727; }
-a.about:visited { color: #272727; }
-a.about:hover { color: greenyellow; }
-a.about:active { color: #272727; }
+a.about:link {
+  color: #272727;
+}
+a.about:visited {
+  color: #272727;
+}
+a.about:hover {
+  color: greenyellow;
+}
+a.about:active {
+  color: #272727;
+}
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
-    font-family: 'Bungee', cursive;
-    font-size: 220px;
-    color: #272727;
-    text-align: center;
-    margin: 60px auto 0px auto;
+  font-family: "Bungee", cursive;
+  font-size: 220px;
+  color: #272727;
+  text-align: center;
+  margin: 60px auto 0px auto;
 }
 
 h2 {
-    font-size: 18px;
+  font-size: 18px;
+  color: #021854;
 }
 
 h3 {
-    font-size: 16px;
-    
+  font-size: 16px;
 }
 
 p {
-    margin-top: 20px;
-    font-size: 0.92em;
-    line-height: 1.6em;
+  margin-top: 20px;
+  font-size: 0.92em;
+  line-height: 1.6em;
 }
 
 ul {
-    margin-top: 10px;
-    padding-inline-start: 20px;
-    line-height: 20px;
+  margin-top: 10px;
+  padding-inline-start: 20px;
+  font-size: 0.92em;
+  line-height: 1.6em;
 }
 
 img {
-    padding: 10px;
+  padding: 10px;
 }
 
 footer {
-    margin-top: 150px;
-    padding: 30px 0px 20px 0px;
-    text-align: center;
+  margin-top: 150px;
+  padding: 30px 0px 20px 0px;
+  text-align: center;
 }
 
 main {
-    text-align: center;
+  text-align: center;
 }
 
-
 #blog {
-    font-family: 'Bungee', cursive;
-    font-size: 30px;   
+  font-family: "Bungee", cursive;
+  font-size: 30px;
 }
 
 #tech {
-    font-size: 160px;
-    color: orangered;
-    /*display: inline-block;*/
+  font-size: 160px;
+  color: orangered;
+  /*display: inline-block;*/
 }
 
 #core {
-    font-size: 160px;
-    color: mediumslateblue;
-    /*display: inline-block;*/
+  font-size: 160px;
+  color: mediumslateblue;
+  /*display: inline-block;*/
 }
 
 #tb1 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #tb2 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #tb3 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #cb1 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #cb2 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #cb3 {
-    font-family: 'Bungee', cursive;
-    font-size: 140px; 
+  font-family: "Bungee", cursive;
+  font-size: 140px;
+}
+
+#cb4 {
+  font-family: "Bungee", cursive;
+  font-size: 140px;
 }
 
 #blog-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 775px;
-    text-transform: initial;
-    text-align: initial;
-    background-color: white;
-    padding: 0px 30px 30px 30px;
-    font-family: 'Montserrat', sans-serif;
-    
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 775px;
+  text-transform: initial;
+  text-align: initial;
+  background-color: white;
+  padding: 0px 30px 30px 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #container-buildings {
-    margin: auto;
-    padding: 10px;
+  margin: auto;
+  padding: 10px;
 }
