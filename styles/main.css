@@ -21,18 +21,22 @@ body {
   padding-top: 10px;
   border-bottom: solid #272727 1px;
   font-weight: normal;
+  color: #272727;
 }
 
 .eda {
   padding: 0px 20px 0px 0px;
+  color: #272727;
 }
 
 .kahikatea {
   padding: 0px 20px 0px 20px;
+  color: #272727;
 }
 
 .year {
   padding: 0px 0px 0px 20px;
+  color: #272727;
 }
 
 .header-main {
@@ -201,6 +205,11 @@ main {
 }
 
 #cb4 {
+  font-family: "Bungee", cursive;
+  font-size: 140px;
+}
+
+#cb5 {
   font-family: "Bungee", cursive;
   font-size: 140px;
 }
