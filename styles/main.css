@@ -162,6 +162,12 @@ main {
   font-size: 30px;
 }
 
+#about {
+  font-size: 30px;
+  margin-top: 20px;
+  line-height: 48px;
+}
+
 #tech {
   font-size: 160px;
   color: orangered;
