@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-  background-color: #ededed;
+  background-color: #f0ebd6;
   font-family: "Courier New", Courier, monospace;
   color: #272727;
   margin-left: 30px;
@@ -76,7 +76,7 @@ a.header-title:visited {
   color: #272727;
 }
 a.header-title:hover {
-  color: deepskyblue;
+  color: #17378e;
 }
 a.header-title:active {
   color: #272727;
@@ -89,7 +89,7 @@ a.blog:visited {
   color: #272727;
 }
 a.blog:hover {
-  color: orangered;
+  color: #1f5411;
 }
 a.blog:active {
   color: #272727;
@@ -102,7 +102,7 @@ a.about:visited {
   color: #272727;
 }
 a.about:hover {
-  color: greenyellow;
+  color: #d06a0b;
 }
 a.about:active {
   color: #272727;
@@ -170,13 +170,13 @@ main {
 
 #tech {
   font-size: 160px;
-  color: orangered;
+  color: #3c0b68;
   /*display: inline-block;*/
 }
 
 #core {
   font-size: 160px;
-  color: mediumslateblue;
+  color: #e1ad4b;
   /*display: inline-block;*/
 }
 
